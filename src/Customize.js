@@ -20,6 +20,9 @@ const Customize = ({ name, home, setName, setHome }) => {
 
     return (
         <div className='lyrics-wrapper'>
+
+
+
             <form className='settings-wrapper'>
                 <div className='baby-form-wrapper'>
                     <label className='settings-label'>Baby's Name:
@@ -37,9 +40,11 @@ const Customize = ({ name, home, setName, setHome }) => {
             <div className='rojo-image'>
                 <img src={rojo} />
             </div>
-            <div className='speech-bubble-image'>
-                <img src={speechbubble} />
+            
+            
+            <div class="bubble bubble-bottom-left">
             </div>
+
         </div>
 
     )
